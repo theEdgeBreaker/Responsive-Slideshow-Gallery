@@ -56,7 +56,7 @@ export default function Page() {
           <Image
             key={index}
             {...image}
-            className="border-4 border-solid border-blue-900  w-40 cursor-pointer hover:border-blue-500"
+            className="border-4 border-solid border-blue-900 w-36 cursor-pointer hover:border-blue-500"
             onClick={() => handleOnClicked(image.src as string, index)}
           />
         ))}

@@ -19,7 +19,7 @@ const ImageViewer: React.FC<ImageViewerProps> = ({
           src={selectedImage}
           alt={selectedImage}
           style={{
-            width: 1018,
+            width: 923,
             maxWidth: "100%",
           }}
           className="py-2"
