@@ -10,7 +10,7 @@ import img4Path from "@/assets/Images/Img-4.jpg";
 import img5Path from "@/assets/Images/Img-5.jpg";
 import img6Path from "@/assets/Images/Img-6.jpg";
 
-const page: React.FC = () => {
+export default function Page() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
 
@@ -63,6 +63,4 @@ const page: React.FC = () => {
       </div>
     </div>
   );
-};
-
-export default page;
+}
