@@ -26,13 +26,13 @@ const ImageViewer: React.FC<ImageViewerProps> = ({
         />
 
         <button
-          className="absolute top-1/2 transform -translate-y-1/2 left-0 text-white py-14 px-4 md:py-28 md:px-5 text-3xl md:text-5xl"
+          className="absolute top-1/2 transform -translate-y-1/2 left-0 text-white py-14 px-4 md:py-28 md:px-5 text-3xl md:text-4xl"
           onClick={onPrev}
         >
           &lt;
         </button>
         <button
-          className="absolute top-1/2 transform -translate-y-1/2 right-0 text-white py-14 px-4 md:py-28 md:px-5 text-3xl md:text-5xl"
+          className="absolute top-1/2 transform -translate-y-1/2 right-0 text-white py-14 px-4 md:py-28 md:px-5 text-3xl md:text-4xl"
           onClick={onNext}
         >
           &gt;
